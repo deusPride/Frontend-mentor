@@ -30,7 +30,7 @@ main {
   margin-top: 30px;
   background-color: hsl(0, 0%, 100%);
   border-radius: 15px;
-  width: clamp(32%, 100%, 375px);
+  width: clamp(35%, 100%, 375px);
   color: hsl(24, 5%, 18%);
 }
 

@@ -43,9 +43,10 @@ header {
   margin-bottom: 20px;
   flex-direction: column;
 }
-h3{
+h2{
   color:hsl(75, 94%, 57%);
-margin: 0;
+  margin: 0;
+  font-size: 19px;
 }
 img {
   width: 100%;

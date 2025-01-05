@@ -30,16 +30,15 @@ main {
   margin-top: 30px;
   background-color: hsl(0, 0%, 100%);
   border-radius: 15px;
-  padding: 30px;
-  width: clamp(35%, 95%, 370px);
+  width: clamp(32%, 100%, 375px);
   color: hsl(24, 5%, 18%);
 }
 
 header {
-  margin: 0;
-  margin-bottom: 20px;
+  margin: 20px;
   overflow: hidden;
   border-radius: 15px;
+
 }
 
 img {
@@ -55,9 +54,12 @@ h1,
 h2 {
   font-family: YoundSerif;
 }
-
+h1{
+  font-size: 2rem;
+}
 h2 {
   color: hsl(14, 45%, 36%);
+  font-size: 1.8rem;
 }
 h3,li::marker,tr td:last-child {
   color: hsl(332, 51%, 32%);
@@ -107,4 +109,29 @@ tr td:last-child {
 }
 tr td:first-child {
   padding-left: 30px;
+}
+.recipe {
+  padding:0 30px;
+
+}
+@media screen and (max-width: 375px) {
+  main {
+    margin: 0;
+    border-radius: 0;
+    width: 100%;
+  }
+  header {
+    margin: 0;
+    overflow: hidden;
+    border-radius: 0;
+  
+  }
+body{
+  margin: 0;
+  padding: 0;
+}
+.recipe {
+  padding:0 30px;
+
+}
 }
